@@ -100,6 +100,38 @@ div#overflow {
                 <div class="box" style="width:500px;">
                     <p id="fixed">fixedポジションテキスト</p>
                 </div>
+
+                <div class="blank"></div>
+
+                <pre>div.float {
+    float: left;
+}
+
+div.clear {
+    clear: both;
+}</pre>
+                <p>7. div.float 要素を右に回りこませてみましょう。</p>
+                <p>8. div.clear 要素の回り込みを解除しましょう。</p>
+
+                <div class="blank"></div>
+
+                <div class="box" style="width:620px;height:270px;">
+                    <div class="float" style="width:130px;border:solid 1px #999;margin:10px;">
+                        <p>div.float</p>
+                    </div>
+
+                    <div class="float" style="width:130px;border:solid 1px #999;margin:10px;">
+                        <p>div.float</p>
+                    </div>
+
+                    <div class="float clear" style="width:130px;border:solid 1px #999;margin:10px;">
+                        <p>div.float.clear</p>
+                    </div>
+
+                    <div class="float clear" style="width:130px;border:solid 1px #999;margin:10px;">
+                        <p>div.float.clear</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
