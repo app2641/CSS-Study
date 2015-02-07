@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 背景</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/background.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">背景</h2>
+            <p>背景に関わるスタイルについて説明します。</p>
+            <p>background.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>div#background-color {
+    background-color: grey;
+}</pre>
+
+                <p>1. background-color で div 要素の背景色を grey にしてみましょう。</p>
+                <div class="blank"></div>
+
+                <div id="background-color" class="box">
+                    <p>div#background-color</p>
+                </div>
+
+                <div class="blank"></div>
+                <pre>div#background-image {
+    background-image: url('../../images/chrome.png');
+    background-repeat: no-repeat;
+    background-position: 20px 5%;
+}
+</pre>
+                <p>2. background-image で div 要素の背景に画像を配置してみましょう。</p>
+                <p>3. background-repeat で背景画像を単体で表示してみましょう。</p>
+                <p>4. background-position で背景画像の開始位置を変更してみましょう。</p>
+                <div class="blank"></div>
+
+                <div id="background-image" class="box">
+                    <p>div#background-image</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>div#background-stripe {
+    background-image: url('../../images/stripe.png');
+}</pre>
+                <p>5. background-image を応用して背景に柄を表示してみましょう。</p>
+                <div class="blank"></div>
+
+                <div id="background-stripe" class="box">
+                    <p>div#background-stripe</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
