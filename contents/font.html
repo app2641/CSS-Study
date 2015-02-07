@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | フォント</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/font.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">フォント</h2>
+            <p>指定要素にのフォントを変更することが出来ます。</p>
+            <p>font.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>p#font-bold {
+    font-weight: bold;
+}
+
+p#font-italic {
+    font-style: italic;
+}</pre>
+
+                <p>1. p#font-bold を太字にしてみましょう。</p>
+                <p>2. p#font-italic をイタリックにしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <p id="font-bold">ボールド</p>
+                <p id="font-italic">イタリック</p>
+
+                <div class="blank"></div>
+
+                <pre>p#font-size-percent {
+    font-size: 200%;
+}
+
+p#font-size-em {
+    font-size: 2em;
+}
+
+p.line-height {
+    line-height: 400%;
+}</pre>
+
+                <p>3. p#font-size-percent を 200% のサイズにしてみましょう。</p>
+                <p>4. p#font-size-em を 2.0em のサイズにしてみましょう。</p>
+                <p>5. p.line-height の行の高さを 400% にしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <p id="font-size-percent" class="line-height">フォントサイズ 200%</p>
+                <p id="font-size-em" class="line-height">フォントサイズ 2.0em</p>
+
+                <div class="blank"></div>
+
+                <pre>p#font-serif {
+    font-family: serif;
+}
+
+p# font-impact {
+    font-family: impact;
+}</pre>
+                <p>6. p#font-serif に明朝系のフォントを指定してみましょう。</p>
+                <p>7. p#font-impact に impact のフォントを指定してみましょう。</p>
+                <p>応用: WebFont という外部からフォントを読み込む機能もある。<a href="https://www.google.com/fonts" target="_blank">Google Fonts</a> など。</p>
+
+                <div class="blank"></div>
+
+                <p id="font-serif">明朝系フォント</p>
+                <p id="font-impact">Impact font</p>
+            </div>
+        </div>
+    </body>
+</html>
