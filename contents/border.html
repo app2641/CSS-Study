@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | ボーダー</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/border.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">ボーダー</h2>
+            <p>ボーダーに関わるスタイルを変更することが出来ます。</p>
+            <p>border.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>p#solid {
+    border-style: solid;
+}
+
+p#double {
+    border-style: double;
+}
+
+p#solid-and-double {
+    border-style: solid double;
+}</pre>
+
+                <p>boder-style はボーダーの種類を指定します。</p>
+                <p>1. p#solid 要素に一本線を引いてみましょう。</p>
+                <p>2. p#double 要素に二重線を引いてみましょう。</p>
+                <p>3. p#solid-and-double 要素の上下に一本線、左右に二重線を引いてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <p id="solid">solidボーダーテキスト</p>
+                <p id="double">doubleボーダーテキスト</p>
+                <p id="solid-and-double">複合ボーダーテキスト</p>
+
+                <div class="blank"></div>
+
+                <pre>p#red-border {
+    border-style: solid;
+    border-color: red;
+}</pre>
+
+                <p>4. p#red-border の要素に赤色の一本線を引いてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <p id="red-border">赤色一本線テキスト</p>
+
+                <div class="blank"></div>
+
+                <pre>p#pixel-border {
+    border-style: solid;
+    border-width: 1px;
+}
+
+p#em-border {
+    border-style: solid;
+    border-width: 1em;
+}</pre>
+                <p>5. p#pixel-border 要素に太さ1pxの一本線を引いてみましょう。</p>
+                <p>6. p#em-border 要素に太さ1emの一本線を引いてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <p id="pixel-border">1pxボーダーテキスト</p>
+                <p id="em-border">1emボーダーテキスト</p>
+
+                <div class="blank"></div>
+
+                <pre>p#border {
+    border: solid 1px red;
+}</pre>
+                <p>7. p#border 要素に赤色の太さ1pxの一本線を引いてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <p id="border">太さ1pxの赤色一本線テキスト</p>
+            </div>
+        </div>
+    </body>
+</html>
