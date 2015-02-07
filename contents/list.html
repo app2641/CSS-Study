@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | リスト</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/list.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">リスト</h2>
+            <p>リストに関わるスタイルを変更することが出来ます。</p>
+            <p>list.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>ul#list-none {
+    list-style-type: none;
+}</pre>
+
+                <p>noneでリストのマーカーを除去出来ます。指定出来るスタイルはたくさんあるのでぐぐって調べましょう。</p>
+                <p>1. ul#list-none 要素のリストマーカーを除去してみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <ul id="list-none">
+                    <li>おはようございます</li>
+                    <li>こんにちは</li>
+                    <li>こんばんは</li>
+                </ul>
+
+                <div class="blank"></div>
+
+                <pre>ul#list-image {
+    list-style-image: url('../../images/list.png');
+}</pre>
+
+                <p>2. ul#list-image の要素のマーカーを画像に変えてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <ul id="list-image">
+                    <li>ゴールドエクスペリエンス</li>
+                    <li>ハーミットパープル</li>
+                    <li>ストーンフリー</li>
+                </ul>
+
+            </div>
+        </div>
+    </body>
+</html>
