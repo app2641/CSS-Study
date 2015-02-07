@@ -7,6 +7,7 @@ html, body {
 h1#title {
     font-size: 3.0em;
     font-family: serif;
+    text-shadow: 0px 7px 5px #888;
 }
 
 div#main-contents {
