@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 属性セレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/attr-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">属性セレクタ</h2>
+            <p>指定属性の要素に対してスタイルを変更することが出来ます。</p>
+            <p>attr-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>li[class] {
+    color: red;
+}
+
+li[class="odd"] {
+    color: blue;
+}</pre>
+
+                <p>1. li[class] を指定して class 属性を持つ要素の文字色を red にしてみましょう。</p>
+                <p>2. li[class="odd"] を指定して class 属性の値が odd の文字色を blue にしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <ul>
+                    <li class="odd">あいうえお</li>
+                    <li class="even">かきくけこ</li>
+                    <li class="odd">さしすせそ</li>
+                    <li class="even">たちつてと</li>
+                    <li class="odd">なにぬねの</li>
+                    <li class="even">はひふへほ</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

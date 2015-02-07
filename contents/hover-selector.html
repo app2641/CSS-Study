@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | hoverセレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/hover-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">hoverセレクタ</h2>
+            <p>カーソルが指定要素の上に来た時にスタイルを変更することが出来ます。</p>
+            <p>hover は擬似クラスと呼ばれるもので、他にも link や visited など様々な擬似クラスがあります。</p>
+            <p>hover-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>li.even:hover {
+    color: red;
+}</pre>
+
+                <p>1. li.even:hover を指定して even クラスを持つ li の上にカーソルが来た時に要素の文字色を red にしてみましょう。</p>
+                <div class="blank"></div>
+
+                <ul>
+                    <li class="odd">あいうえお</li>
+                    <li class="even">かきくけこ</li>
+                    <li class="odd">さしすせそ</li>
+                    <li class="even">たちつてと</li>
+                    <li class="odd">なにぬねの</li>
+                    <li class="even">はひふへほ</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

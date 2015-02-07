@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 子セレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/child-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">子セレクタ</h2>
+            <p>指定した親子関係を持つ要素に対してスタイルを変更することが出来ます。</p>
+            <p>child-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>td#apple-ja li.odd {
+    color: red;
+}</pre>
+
+                <p>1. td#apple-ja li.odd を指定して apple-ja id を持つ td の中にあり odd クラスを持つ li 要素の文字色を red にしてみましょう。</p>
+                <div class="blank"></div>
+
+                <table border="1">
+                    <tr>
+                        <th>日本語</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td id="apple-ja">
+                            りんご
+                            <ul>
+                                <li class="odd">あいうえお</li>
+                                <li class="even">かきくけこ</li>
+                                <li class="odd">さしすせそ</li>
+                                <li class="even">たちつてと</li>
+                                <li class="odd">なにぬねの</li>
+                                <li class="even">はひふへほ</li>
+                            </ul>
+                        </td>
+                        <td id="apple-en">
+                            Apple
+                            <ul>
+                                <li class="odd">あいうえお</li>
+                                <li class="even">かきくけこ</li>
+                                <li class="odd">さしすせそ</li>
+                                <li class="even">たちつてと</li>
+                                <li class="odd">なにぬねの</li>
+                                <li class="even">はひふへほ</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

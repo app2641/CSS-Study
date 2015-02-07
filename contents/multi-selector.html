@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 複数セレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/multi-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">複数セレクタ</h2>
+            <p>複数の要素に対して同じスタイルを適用することが出来ます。</p>
+            <p>multi-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>li.odd, td#apple-ja {
+    color: red;
+}</pre>
+
+                <p>1. li.odd, td#apple-ja を指定して odd クラスを持つ li と apple-ja id を持つ td の文字色を red にしてみましょう。</p>
+                <div class="blank" />
+
+                <ul>
+                    <li class="odd">あいうえお</li>
+                    <li class="even">かきくけこ</li>
+                    <li class="odd">さしすせそ</li>
+                    <li class="even">たちつてと</li>
+                    <li class="odd">なにぬねの</li>
+                    <li class="even">はひふへほ</li>
+                </ul>
+
+                <div class="blank" />
+
+                <table border="1">
+                    <tr>
+                        <th>日本語</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td id="apple-ja">りんご</td>
+                        <td id="apple-en">Apple</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

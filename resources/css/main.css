@@ -1,0 +1,71 @@
+
+html, body {
+    padding: 15px;
+    background-color: #eee;
+}
+
+h1#title {
+    font-size: 3.0em;
+    font-family: serif;
+}
+
+div#main-contents {
+    padding: 5px 20px;
+}
+
+div#main-contents ul#index li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+div#main-contents ul#index li a {
+    font-size: 1.2em;
+}
+
+div#main-contents h2#subtitle {
+    font-size: 1.3em;
+    color: #777;
+    margin: 5px 10px;
+}
+
+div#main-contents p {
+    margin: 5px 20px;
+}
+
+div#main-contents div.issue {
+    margin: 20px 30px;
+}
+
+div#main-contents div.issue pre {
+    font-size: 1.1em;
+    color: white;
+    background-color: #009688;
+    padding: 10px 15px;
+}
+
+div#main-contents div.issue p {
+    margin: 10px 10px;
+}
+
+div#main-contents div.box {
+    width: 250px;
+    height: 150px;
+    vertical-align: middle;
+    line-height: 200%;
+    border: solid 1px #999;
+}
+
+div.blank {
+    padding: 12px 0px;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0D47A1;
+    text-decoration: underline;
+}
+

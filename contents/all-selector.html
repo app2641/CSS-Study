@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 全称セレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/all-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">全称セレクタ</h2>
+            <p>すべての要素に対してスタイルを変更することが出来ます。</p>
+            <p>all-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>* {
+    color: red;
+}</pre>
+
+                <p>1. * を指定して文字色を red にしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <ul>
+                    <li>あいうえお</li>
+                    <li>かきくけこ</li>
+                </ul>
+
+                <div class="blank"></div>
+
+                <table border="1">
+                    <tr>
+                        <th>日本語</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td>おはよう</td>
+                        <td>Good morning</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

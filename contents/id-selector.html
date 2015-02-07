@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | idセレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/id-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">idセレクタ</h2>
+            <p>指定idの要素に対してスタイルを変更することが出来ます。</p>
+            <p>id-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>td#apple-ja {
+    color: red;
+}
+
+td#apple-en {
+    color: blue;
+}</pre>
+
+                <p>1. td#apple-ja を指定して apple-ja id の文字色を red にしてみましょう。</p>
+                <p>2. td#apple-en を指定して apple-en id の文字色を blue にしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <table border="1">
+                    <tr>
+                        <th>日本語</th>
+                        <th>English</th>
+                    </tr>
+                    <tr>
+                        <td id="apple-ja">りんご</td>
+                        <td id="apple-en">Apple</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

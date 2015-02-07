@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | クラスセレクタ</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/class-selector.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">クラスセレクタ</h2>
+            <p>指定クラスの要素に対してスタイルを変更することが出来ます。</p>
+            <p>class-selector.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>li.odd {
+    color: red;
+}
+
+li.even {
+    color: blue;
+}</pre>
+
+                <p>1. li.odd を指定して odd クラスの文字色を red にしてみましょう。</p>
+                <p>2. li.even を指定して even クラスの文字色を blue にしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <ul>
+                    <li class="odd">あいうえお</li>
+                    <li class="even">かきくけこ</li>
+                    <li class="odd">さしすせそ</li>
+                    <li class="even">たちつてと</li>
+                    <li class="odd">なにぬねの</li>
+                    <li class="even">はひふへほ</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
