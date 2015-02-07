@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | 表示と配置</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/display-and-position.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">表示と配置</h2>
+            <p>指定要素の表示や配置についてスタイルを適用することが出来ます。</p>
+            <p>display-and-position.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>div#overflow {
+    overflow: hidden;
+}
+
+div#overflow {
+    overflow: scroll;
+}</pre>
+
+                <p>overflow はボックスに入りきらずはみ出た部分の表示方法を指定します。</p>
+                <p>1. div#overflow からはみ出た部分を非表示にしてみましょう。</p>
+                <p>2. div#overflow からはみ出た部分をスクロールして見られるようにしてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <div id="overflow" class="box" style="width:500px;">
+                    <p>ゴーシュは町の活動写真館でセロを弾く係りでした。けれどもあんまり上手でないという評判でした。上手でないどころではなく実は仲間の楽手のなかではいちばん下手でしたから、いつでも楽長にいじめられるのでした。</p>
+                    <p>ひるすぎみんなは楽屋に円くならんで今度の町の音楽会へ出す第六交響曲こうきょうきょくの練習をしていました。</p>
+                    <p>トランペットは一生けん命歌っています。</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>div#display {
+    display: none;
+}</pre>
+
+                <p>3. div#display の要素を非表示にしてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <div id="display" class="box" style="width:500px;">
+                    <p>div#display</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>p#relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}</pre>
+                <p>position: relative は親要素からの相対位置でポジションを指定するという宣言です。</p>
+                <p>4. p#relative 要素をボックスの上から 20px 左から 20px の位置に配置してみましょう。</p>
+
+                <div class="blank"></div>
+
+                <div class="box" style="width:500px;">
+                    <p id="relative">relativeポジションテキスト</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>p#absolute {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}</pre>
+                <p>position: absolute はページ全体からの絶対位置でポジションを指定するという宣言です。</p>
+                <p>親要素に position: relative が指定されていた場合はその要素からの絶対位置になります。</p>
+                <p>5. p#absolute 要素をページの上から 20px 左から 20px の位置に配置してみましょう。</p>
+
+                <div class="blank"></div>
+
+                <div class="box" style="width:500px;">
+                    <p id="absolute">absoluteポジションテキスト</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>p#fixed {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}</pre>
+                <p>position: fixed は absolute 同様ページ全体からの絶対位置でポジションを指定するという宣言です。</p>
+                <p>absolute と違うのはスクロールしても位置が固定されているというところです。</p>
+                <p>6. p#fixed 要素をページの上から 40px 左から 40px の位置に配置してみましょう。</p>
+
+                <div class="blank"></div>
+
+                <div class="box" style="width:500px;">
+                    <p id="fixed">fixedポジションテキスト</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
