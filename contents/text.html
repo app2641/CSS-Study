@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | テキスト</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/text.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">テキスト</h2>
+            <p>指定要素のテキストにスタイルを適用することが出来ます。</p>
+            <p>text.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>p#align-right {
+    text-align: right;
+}
+
+p#align-center {
+    text-align: center;
+}</pre>
+
+                <p>1. p#align-right のテキストを右揃えにしてみましょう。</p>
+                <p>2. p#align-center のテキストを中央揃えにしてみましょう。</p>
+
+                <div class="blank"></div>
+
+                <div class="box">
+                    <p id="align-right">右揃えテキスト</p>
+                    <p id="align-center">中央揃えテキスト</p>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>p#decoration-under {
+    text-decoration: underline;
+}
+
+p#decoration-through {
+    text-decoration: line-through;
+}</pre>
+
+                <p>3. p#decoration-under のテキストに下線を引きましょう。</p>
+                <p>4. p#decoration-through のテキストに打ち消し線を引きましょう。</p>
+
+                <div class="blank"></div>
+
+                <p id="decoration-under">下線テキスト</p>
+                <p id="decoration-through">打ち消し線テキスト</p>
+            </div>
+        </div>
+    </body>
+</html>
