@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>CSS Study | マージンとパディング</title>
+
+        <link rel="stylesheet" href="../resources/css/main.css" />
+        <link rel="stylesheet" href="../resources/css/study/margin-and-padding.css" />
+    </head>
+    <body>
+        <h1 id="title">CSS study</h1>
+
+        <div id="main-contents">
+            <h2 id="subtitle">マージンとパディング</h2>
+            <p>指定要素の余白についてスタイルを適用することが出来ます。</p>
+            <p>margin-and-padding.css を使用しましょう。</p>
+
+            <div class="issue">
+                <pre>div#margin {
+    margin-top: 50px;
+}
+
+div#margin {
+    margin-right: 50px;
+}
+
+div#margin {
+    margin: 40px;
+}
+
+div#margin {
+    margin: 20px 10px;
+}
+
+div#margin {
+    margin: 5px 10px 0px 30px;
+}</pre>
+
+                <p>マージンは要素の外側にある余白に対してスタイルを適用します。</p>
+                <p>1. div#margin の上部の余白を 50px にしてみましょう。</p>
+                <p>2. div#margin の右部の余白を 50px にしてみましょう。</p>
+                <p>3. div#margin の上下左右の余白を 40px にしてみましょう。</p>
+                <p>4. div#margin の上下の余白を 20px に、左右の余白を 10px にしてみましょう。</p>
+                <p>5. div#margin の上 5px 右 10px 下 0px 左 30px の余白にしてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <div class="box" style="width:500px;">
+                    <div id="margin" style="background-color:#9E9E9E;">
+                        <p style="margin:0px;padding:0px;">div#margin</p>
+                    </div>
+                </div>
+
+                <div class="blank"></div>
+
+                <pre>div#padding {
+    padding-top: 50px;
+}
+
+div#padding {
+    padding-left: 50px;
+}
+
+div#padding {
+    padding: 40px;
+}
+
+div#padding {
+    padding: 20px 10px;
+}
+
+div#padding {
+    padding: 5px 10px 0px 30px;
+}</pre>
+
+                <p>パディングは要素の内側にある余白に対してスタイルを適用します。</p>
+                <p>6. div#padding の上部の余白を 50px にしてみましょう。</p>
+                <p>7. div#padding の左部の余白を 50px にしてみましょう。</p>
+                <p>8. div#padding の上下左右の余白を 40px にしてみましょう。</p>
+                <p>9. div#padding の上下の余白を 20px に、左右の余白を 10px にしてみましょう。</p>
+                <p>10. div#padding の上 5px 右 10px 下 0px 左 30px の余白にしてみましょう。</p>
+
+                <div class="blank" ></div>
+
+                <div class="box" style="width:500px;">
+                    <div id="padding" style="background-color:#9E9E9E;">
+                        <p style="margin:0px;padding:0px;">div#padding</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
